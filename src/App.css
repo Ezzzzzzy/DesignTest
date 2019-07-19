@@ -1,6 +1,187 @@
-.App {
-  text-align: center;
+/* Color palette */
+:root {
+  --grape-purple: #28144b;
+  --grape-purple-two: #2d1457;
+  --charcoal-grey: #35303c;
+  --white-two: #f6f6f6;
+  --warm-blue: #645fe4;
+  --perrywinkle: #acaaec;
+  --perrywinkle-two: #a29fee;
+  --white: #d6d6d6;
+  --cool-grey: #8f9397;
+  --black: #373737;
+  overflow-x: hidden;
 }
+
+.Text-Style {
+  font-family: FuturaPT;
+  font-size: 56px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.29;
+  letter-spacing: 0.8px;
+  color: #ffffff;
+}
+
+/* .navbar-dark .navbar-nav .nav-link {
+  color: white;
+} */
+
+.App {
+  color: #f8f9fa;
+  min-height: 100vh;
+  background-color: var(--grape-purple);
+  background-image: url(assets/orsus_whitepaper_1031-02.png), url(assets/orsus_whitepaper_reverse.png);
+  background-size: 75vh auto, 50vh auto;
+  background-position: right top, left center;
+  background-repeat: no-repeat, no-repeat;
+}
+
+
+
+.Democratizing-the-bu {
+  width: 45vw;
+  height: auto;
+  /* font-family: FuturaPT; */
+  font-size: 3vw;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.29;
+  letter-spacing: 0.8px;
+  color: #ffffff;
+  margin-top: 10vw
+}
+
+.Subscribe-for-Update {
+  width: 328px;
+  height: 37px;
+  /* font-family: OpenSans; */
+  font-size: 18px;
+  font-weight: 600;
+  font-style: italic;
+  font-stretch: normal;
+  line-height: 1.78;
+  letter-spacing: 0.3px;
+  color: var(--white);
+}
+
+
+.button-align {
+  display: block;
+  border-radius: 2px;
+  border: solid 1px var(--warm-blue);
+  background-color: var(--warm-blue);
+}
+
+.email-design {
+  border-radius: 2px;
+  border: solid 1px #ffffff;
+  background-color: var(--grape-purple);
+}
+
+.With-Orsus{
+  width: 540px;
+  height: 52px;
+  /* font-family: FuturaPT; */
+  font-size: 52px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1;
+  letter-spacing: 0.76px;
+  text-align: center;
+  color: #ffffff;
+  margin-top: 10vw
+}
+
+.withOrsusList{
+  width: 250px;
+  margin-left: -115px;
+  margin-top: 167px;
+  font-size: 1vw;
+}
+
+.Rectangle-2 {
+  margin-top: 5vw;
+  display: flex;
+  width: 46vw;
+  height: 8vw;
+  background-color: #ffffff;
+  justify-content: center;
+}
+
+.Creators-Influence {
+  width: 900px;
+  height: 110px;
+  font-size: 3vw;
+  font-weight: bold;
+  line-height: 1.33;
+  letter-spacing: 0.44px;
+  color: var(--grape-purple) !important;
+  margin-top: 2vh;
+}
+
+
+.Rectangle {
+  background-color: var(--grape-purple-two);
+  padding-right: 200px;
+  padding-left: 296px;
+  margin-left: -401px;
+}
+
+
+.Withorsus{
+  display: block;
+}
+.withOrsusContainer{
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between; 
+  width: auto;
+  margin-top: -57px;
+  margin-left: 311px;
+  
+}
+.overlay{
+  position: relative;
+  z-index: 10;
+}
+
+.underlay{
+  position: relative;
+  z-index: 0;
+}
+
+.withOrsusImage{
+  width:1365px;
+}
+
+
+.Gain-a-fair-and-tran {
+  width: 320px;
+  height: 117px;
+  font-family: OpenSans;
+  font-size: 20px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.9;
+  letter-spacing: 0.4px;
+  color: #ffffff;
+}
+
+
+
+
+/* .whitepaper {
+  background-image: url(assets/orsus_whitepaper_1031-02.png)
+}
+
+.small-whitepaper {
+  background-image: url(assets/orsus_whitepaper_reverse.png);
+} */
 
 .App-logo {
   animation: App-logo-spin infinite 20s linear;
@@ -9,7 +190,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: var(--grape-purple);
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -19,9 +200,17 @@
   color: white;
 }
 
+
+
 .App-link {
   color: #61dafb;
 }
+
+.orsus_whitepaper_1031-02 {
+  width: 1007px;
+  height: 1192px;
+}
+
 
 @keyframes App-logo-spin {
   from {
@@ -31,3 +220,4 @@
     transform: rotate(360deg);
   }
 }
+
